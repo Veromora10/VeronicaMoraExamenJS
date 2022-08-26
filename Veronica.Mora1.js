@@ -1,12 +1,12 @@
-let horasLaborales= 40;
-let salario= 265; 
-let horasExtras = 53
+let horasAdicionales=13;
+let horasTrabajadas=53;
+let horasNormales= horasTrabajadas*265;
+let horasExtras= horasAdicionales*350;
 
-if (horasLaborales>40) {
-    hora
-    else if (salario = 350) {
-        
-    } (salario = 350*60);
-
+if (horasTrabajadas<=40) {
+    console.log ("El total a pagar por horas normales es: " + horasNormales);
 }
- console.log ()
+else {
+    console.log ("El total a pagar por horas extraordinarias es: " + horasExtras);
+    console.log ("El total a pagar por horas normales es:" + horasNormales);
+}

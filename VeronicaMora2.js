@@ -1,10 +1,7 @@
 
-let contador20 = 20;
 
-for (let index = 360; index <=16; index+=20) {
-
-    let resultado = contador20 + index;
-console.log (contador20 + "+" + index + "=" + resultado);
+for ( let x= 660; x>= 360; x-=20) {   
+console.log (x);
        
 }
 
